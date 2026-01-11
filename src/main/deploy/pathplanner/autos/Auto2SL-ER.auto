@@ -1,0 +1,25 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto2StartLeft"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto2HangRight"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Auto2",
+  "choreoAuto": false
+}
