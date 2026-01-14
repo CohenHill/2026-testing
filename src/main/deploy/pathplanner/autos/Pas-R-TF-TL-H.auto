@@ -1,0 +1,49 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pas RS"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "PasThroughForward"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ThroughTurnFB"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "PasRF-out"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pas TL"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Hang R"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Pas",
+  "choreoAuto": false
+}
